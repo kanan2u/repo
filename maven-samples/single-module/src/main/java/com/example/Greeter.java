@@ -18,6 +18,6 @@ public class Greeter {
   }
 
    public static void main(String args[]) {
-        System.out.println("Hello, World...I am so much happy to learn Jenkins CI CD!"); 
+        System.out.println("Hello, World!"); 
     }
 }
