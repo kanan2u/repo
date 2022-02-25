@@ -43,6 +43,6 @@ public class TestGreeter {
   public void greetShouldIncludeGreetingNewMessage() {
     String someone = "Hello World, Thanks you making me more Happy";
 
-    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+    assertThat(greeter.greet(someone).length(), is(lessThan(someone.length())));
   }
 }
