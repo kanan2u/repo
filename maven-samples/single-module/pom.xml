@@ -47,7 +47,7 @@
           <manifest>
 
           <!-- give full qualified name of your main class-->
-            <mainClass>Greeter</mainClass>
+            <mainClass>com.example.Greeter</mainClass>
 
           </manifest>
         </archive>
