@@ -21,6 +21,7 @@ pipeline {
                   steps {
                         echo "Deploying in UAT Area"
                   }
+            }
             stage('Deploy Production') {
                   steps {
                         echo "Deploying in Production Area"
